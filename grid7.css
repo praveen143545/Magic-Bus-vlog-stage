@@ -1,0 +1,24 @@
+.flex1{
+    background-color: black;
+    height: 10vh;
+    grid-template-columns: 1/3;
+    
+}
+.flex2{
+    background-color: red;
+}
+.flex3{
+    background-color: aqua;
+    height: 20vh;
+    grid-column: 2/2;
+}
+.container{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+}
+.flex4{
+    background-color: blue;
+    height: 5vh;
+    grid-column: 1/3;
+}
